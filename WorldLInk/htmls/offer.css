@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    --primary_color: #472ec4;
+    --primary_light: #cbf3f0;
+    --secondary_color: #ff9f1c;
+    --white: #ffffff;
+    --gradient: linear-gradient(to right, #472ec4, #6a83e7);
+    font-family: "Poppins", serif;
+}
+header{
+    background-color: var(--primary_color);
+    color: #fff;
+    padding: 30px;
+}
+main{
+    overflow: hidden;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    scale: 1.25;
+}
+
+.registration-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.registration-form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.registration-form p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.registration-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.registration-form button {
+    width: 100%;
+    background-color: #ffcc00;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.registration-form button:hover {
+    background-color: #e6b800;
+}
+
+.registration-form .login {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.registration-form .login a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.registration-form .login a:hover {
+    text-decoration: underline;
+}
+
+.registration-form .google-login {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.plan-details {
+    margin-left: 30px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.plan-details h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.plan-details .price {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #555;
+}
+
+.plan-details .features {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.plan-details img {
+    width: 100%;
+    border-radius: 8px;
+}
+footer {
+    background-color: #0073E6;
+    color: white;
+    padding: 20px 10%;
+  }
+  
+  .footer-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-column  {
+    margin-bottom: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-column h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 1px;
+    font-size: 0.75rem;
+  }
+  
+  .footer-column ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-column ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-media a {
+    margin-right: 10px;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .footer-bottom a {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .app-buttons img {
+    height: 40px;
+    margin-right: 10px;
+  }
